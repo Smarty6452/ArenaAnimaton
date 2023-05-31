@@ -1,0 +1,27 @@
+// Colors
+$primary-color: #5151bb;
+$secondary-color: #888;
+$background-color: #fff;
+$border-color: #333;
+
+// Fonts
+$heading-font-size: 24px;
+$subtitle-font-size: 14px;
+
+// Spacing
+$navbar-padding: 10px 40px;
+$navbar-links-margin: 0;
+$navbar-links-padding: 0;
+$navbar-links-item-margin: 10px;
+$navbar-icon-margin: 10px;
+$navbar-user-circle-size: 32px;
+$navbar-user-icon-size: 16px;
+
+// Media Queries
+$mobile-breakpoint: 768px;
+
+@mixin mobile {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}

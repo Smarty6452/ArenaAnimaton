@@ -1,0 +1,97 @@
+.weekly {
+  padding:5px 40px;
+
+  .weakly-header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .date {
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .today {
+      color: #000;
+      margin-right: 10px;
+    }
+
+    .text-end {
+      margin-left: auto;
+    }
+
+    .add-period-button {
+      background-color: #007bff;
+      color: #ffffff;
+      display: flex;
+      border: none;
+      align-items: center;
+      padding: 14px 36px;
+      border-radius: 20px;
+
+      .add-period-icon {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .weekly-content {
+    overflow-x: auto;
+
+    .event-calendar-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border: none;
+      }
+
+      th {
+        background-color: #f8f8f8;
+        font-weight: 600;
+      }
+
+      td {
+        position: relative;
+        height: 100px;
+
+        .event,
+        .event-date {
+          padding: 5px;
+          margin-bottom: 5px;
+          font-size: 14px;
+        }
+
+        .event {
+          background-color: #e8f0fe;
+          border-radius: 4px;
+        }
+
+        .event-date {
+          font-weight: bold;
+        }
+      }
+
+      .header-date {
+        position: sticky;
+        top: 0;
+        background-color: #f8f8f8;
+
+        div {
+          margin-bottom: 5px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+}
