@@ -4,7 +4,7 @@
 
 
 #Commands to run this project below
-1) npm i     --> for installation of all dependecnies
+1) npm i     --> for installation of all dependencies
 2) npm start --> to run project
 
 
